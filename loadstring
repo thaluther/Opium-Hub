@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/thaluther/Opium-Hub/refs/heads/main/opiumhubinternals", true))()
