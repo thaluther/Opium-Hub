@@ -136,3 +136,17 @@ local Button = VisualsTab:CreateButton({
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/Aimbot-Script/refs/heads/main/Aimbot%20Script.lua", true))()
    end,
 })
+
+local Button = TrollTab:CreateButton({
+   Name = "Jerk Tool R6",
+   Callback = function()
+loadstring(game:HttpGet("https://pastefy.app/wa3v2Vgm/raw"))()
+   end,
+})
+
+local Button = TrollTab:CreateButton({
+   Name = "Jerk Tool R15",
+   Callback = function()
+loadstring(game:HttpGet("https://pastefy.app/YZoglOyJ/raw"))()
+   end,
+})
