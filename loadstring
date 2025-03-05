@@ -1,1 +1,11 @@
 loadstring(game:HttpGet("https://raw.githubusercontent.com/thaluther/Opium-Hub/refs/heads/main/opiumhubinternals", true))()
+
+        local players = game:GetService("Players")
+
+        game:GetService("StarterGui"):SetCore("SendNotification", {
+            Title = "Discord";
+            Text = "copied to clipboard fag!" .. players.LocalPlayer.DisplayName;
+            Icon = "rbxthumb://type=AvatarHeadShot&id=" .. players.LocalPlayer.UserId .. "&w=180&h=180 true";
+            Duration = 5
+        })
+        setclipboard("https://discord.gg/Q3E6hrrD9q")
